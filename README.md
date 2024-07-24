@@ -20,6 +20,7 @@ conda activate knowchem
 pip install -r requirements.txt
 ```
 
+🏃 Inference
 ```
 python inference-caption.py -c bluesky333/Phi3KnowChem -d Phi3KnowChem -o Phi3KnowChem --max-seq-len 2048 --batch-size 1
 ```
